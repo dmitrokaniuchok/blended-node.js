@@ -1,0 +1,29 @@
+{
+  "name": "blended-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "min-price": "node src/scripts/getProductsByMinPrice.js",
+    "generate": "node src/scripts/generateProducts.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitrokaniuchok/blended-node.js.git"
+  },
+  "keywords": [],
+  "author": "Dmytro Kaniuchok <kanyuchekdmitry@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitrokaniuchok/blended-node.js/issues"
+  },
+  "homepage": "https://github.com/dmitrokaniuchok/blended-node.js#readme",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.30.0",
+    "@faker-js/faker": "^9.8.0",
+    "eslint": "^9.30.0",
+    "globals": "^16.2.0"
+  }
+}
